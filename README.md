@@ -59,7 +59,7 @@ $$
 
 Instanz mit einer Lösung:
 
-eine Menge von Variablen, also $U= \left \{ x, y, z \right \}$ and eine Menge von Klausel über U, also $C = \left \{ x \lor y, x \lor z \right \}$
+eine Menge von Variablen, also $U= \left\{ x, y, z \right\}$ and eine Menge von Klausel über U, also $C = \left\{ x \lor y, x \lor z \right\}$
 
 eine Lösung $f(x)=f(y)=f(z)=true$
 
