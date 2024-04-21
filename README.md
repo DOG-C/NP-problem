@@ -25,7 +25,7 @@
 > Ein Problem $\Pi$ ist NP-vollständig
 >
 > 1. $\Pi \in NP$
-> 2. ~~${\Pi}' \propto \Pi$ für alle ${\Pi}' \in NP$~~
+> 2. ~~$\sout{{\Pi}' \propto \Pi}$ für alle $\sout{{\Pi}' \in NP}$~~
 > 2. ${\Pi}' \propto \Pi$ für ein bekanntes NP-vollständiges ${\Pi}'$
 
 ### SAT
