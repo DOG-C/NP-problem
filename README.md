@@ -57,7 +57,7 @@ $$
 
 **Ja-Instanz**: Instanz mit einer Lösung
 
-eine Menge von Variablen, also $U= \\{ x, y, z \\}$ and eine Menge von Klausel über U, also $C = \\{ x \lor y, x \lor z \\}$
+eine Menge von Variablen, also U= { x, y, z } and eine Menge von Klausel über U, also C = { x ∨ y, x ∨ z}
 
 eine Lösung $f(x)=f(y)=f(z)=true$
 
