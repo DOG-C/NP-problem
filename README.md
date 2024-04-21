@@ -64,13 +64,19 @@ Soll bestehen aus:
 
 Eine Beispiel für Ja-Instanz von **SAT**:
 
-```markdown
-
-Eine Menge von Variablen, also U= { x, y, z } and eine Menge von Klausel über U, also C = { x ∨ y, x ∨ z}
-
-eine Lösung f(x)=f(y)=f(z)=true
+```math
+U = \left\{ x, y, z \right\}, C = \left\{ x \lor y, x \lor z\right\}
+\\
+Eine\ Lösung\ f(x)=f(y)=f(z)=true
 ```
 
 **Nein-Instanz**:
 
-Instanz ohne Lösung
+Es gibt keine Wahrheitsbelegung, sodass jede Klausel in C wahr ist.
+
+Eine Beispiel für Nein-Instanz von **SAT**:
+
+```math
+U = \left\{x, y\right\} C = \left\{ \bar{x} \lor y, x \right\}
+\\
+```
