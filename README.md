@@ -29,15 +29,16 @@
 > - ${\Pi}' \propto \Pi$ für alle ${\Pi}' \in NP$ **oder**
 > - ${\Pi}' \propto \Pi$ für ein bekanntes NP-vollständiges ${\Pi}'$
 
-### SAT
+### SAT(Das erste NP-vollständige Problem)
 
 > [!IMPORTANT]
 > **Gegeben**: Menge U von Variablen, Menge C von Klausel über U.
-> 
+>
 > **Frage**: Existiert eine **Wahrheistbelegung** von U, sodass jede Klausel in C erfüllt wird?
 
 #### Instanz und Lösung
 
+---
 **Instanz(allgemein)**:
 
 eine allgemeine Beschreibung aller vorkommende Parameter
