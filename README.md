@@ -45,9 +45,7 @@ $Wahrheitsbelegung:$
 f: U \longrightarrow \left \{true, false \right \},
 ```
 
-$$
- sodass\ in\ jede\ Klausel\ c \in C\ mindestens\ ein\ Literal\ wahr\ ist.
-$$
+$sodass\ in\ jede\ Klausel\ c \in C\ mindestens\ ein\ Literal\ wahr\ ist.$
 
 **Lösung(Beispiel)**:
 
