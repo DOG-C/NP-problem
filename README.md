@@ -12,7 +12,21 @@
 > [!NOTE]
 > $\mathbf{D_{\Pi}}$ ist eine Familie/Klasse von Instanzen von einem Entscheidungsprblem $\mathbf{\Pi}$
 
-## NP-Problem
+## P Probleme
+
+## NP/NP-vollständige Probleme
+> [!NOTE]
+> Ein Problem $\Pi \in NP$:
+>
+> Es existiert eine TM mit polynomialer Zeitkompexitätsfunktion, die in $q_{J}$ hält bei Ja-**Instanz**.
+> $\Rightarrow $ Konstruire eine OTM mit polynomialer Überprüfungsphase
+
+> [!NOTE]
+> Ein Problem $\Pi$ ist NP-vollständig
+>
+> 1. $\Pi \in NP$
+> 2. ~~${\Pi}' \propto \Pi$ für alle ${\Pi}' \in NP$~~
+> 2. ${\Pi}' \propto \Pi$ für ein bekanntes NP-vollständiges ${\Pi}'$
 
 ### SAT
 
