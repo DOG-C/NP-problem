@@ -19,8 +19,7 @@ $$ U= \{x, y, z\}, C = \{x \vee y, x \vee z \} $$
 **Lösung(allgemein)**:
 
 $$
- Wahrheitsbelegung:\qquad \qquad \qquad \qquad \qquad     \qquad \qquad \qquad \qquad
- \\
+ Wahrheitsbelegung:\qquad \qquad \qquad \qquad \qquad     \qquad \qquad \qquad \qquad \\
  f: U \longrightarrow \{true, false\}, \\
  sodass\ in\ jede\ Klausel\ c \in C\ mindestens\ ein\ Literal\ wahr\ ist.
 $$
