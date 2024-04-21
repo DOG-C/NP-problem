@@ -89,7 +89,7 @@ Eine Beispiel für Ja-Instanz von **SAT**:
 U = \left\{ x, y, z \right\}, C = \left\{ x \lor y, x \lor z\right\}
 ```
 
-$$Eine\ Lösung\ f(x)=f(y)=f(z)=true$$
+$$Eine\ Lösung:\ f(x)=f(y)=f(z)=true$$
 
 **Nein-Instanz**:
 
@@ -141,8 +141,35 @@ später
 **Instanz(Beispiel)**:
 
 ```math
-U= \left \{x, y, z\right \}, C = \left \{x \lor y, x \lor z \right \}
+U= \left \{x, y, z\right \}, C = \left \{x \lor y \lor z, x \lor \bar{y} \lor z \right \}
 ```
 
 ---
 **Lösung(allgemein)**:
+
+$Wahrheitsbelegung:$
+
+```math
+f: U \longrightarrow \left \{true, false \right \},
+```
+
+$sodass\ in\ jede\ Klausel\ c \in C\ mindestens\ ein\ Literal\ wahr\ ist.$
+
+**Lösung(Beispiel)**:
+
+$$
+f(x)=f(y)=f(z)=true
+$$
+
+---
+**Ja-Instanz**:
+
+Eine Beispiel für Ja-Instanz von **3SAT**:
+
+```math
+U= \left \{x, y, z\right \}, C = \left \{x \lor y \lor z, x \lor \bar{y} \lor z \right \}
+```
+
+$$Eine\ Lösung:\ f(x)=f(y)=f(z)=true$$
+
+#### Beweis
