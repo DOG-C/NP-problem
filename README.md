@@ -39,7 +39,7 @@ U= \left \{x, y, z\right \}, C = \left \{x \lor y, x \lor z \right \}
 
 eine genaue Beschreibung der Eigenschaften, die Lösung haben soll(ohne Beschreibung von Instanz)
 
-$ Wahrheitsbelegung:$
+$Wahrheitsbelegung:$
 
 ```math
 f: U \longrightarrow \left \{true, false \right \},
