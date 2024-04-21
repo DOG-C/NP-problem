@@ -10,17 +10,21 @@
 
 **Instanz(allgemein)**:
 
-$$ Menge\ U\ von\ Varablen,\ Menge\ C\ von\ Klausel\ über\ U.$$
+```math
+ Menge\ U\ von\ Varablen,\ Menge\ C\ von\ Klausel\ über\ U.
+ ```
 
 **Instanz(Beispiel)**:
 
-$$ U= \\{x, y, z\\}, C = \\{x \lor y, x \lor z \\} $$
+```math
+U= \left \{x, y, z\right \}, C = \left \{x \lor y, x \lor z \right \}
+```
 
 **Lösung(allgemein)**:
 
 $$ Wahrheitsbelegung:$$
 
- $$f: U \longrightarrow \{true, false\},$$
+$$f: U \longrightarrow \left \{true, false\right \},$$
 
 $$
  sodass\ in\ jede\ Klausel\ c \in C\ mindestens\ ein\ Literal\ wahr\ ist.
