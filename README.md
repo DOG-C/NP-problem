@@ -19,7 +19,9 @@ $$ U= \\{x, y, z\\}, C = \\{x \lor y, x \lor z \\} $$
 **Lösung(allgemein)**:
 
 $$ Wahrheitsbelegung:$$
+
  $$f: U \longrightarrow \{true, false\},$$
+
 $$
  sodass\ in\ jede\ Klausel\ c \in C\ mindestens\ ein\ Literal\ wahr\ ist.
 $$
