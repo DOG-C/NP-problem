@@ -183,4 +183,4 @@ $$Eine\ Lösung:\ f(x)=f(y)=f(z)=true$$
    - Wenn mindestens eine Klausel nicht erfüllt ist, gehe in $q_{N}$
 - Für eine feste Wahrheitsbelegung f kann in polynomialer Zeit $O(|C|)$ (also linear), ob alle Klauseln aus C durch f erfüllt sind.
 
-**II. SAT$\propto$ 3SAT**
+**II. SAT $\propto$ 3SAT**
