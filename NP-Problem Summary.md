@@ -10,11 +10,11 @@
 
 **Instanz(allgemein)**:
 
-$$ Menge\ U\ von\ Variablen,\ Menge\ C\ von\ Klausel\ über\ U.$$
+$$ Menge\ U\ von\ Varablen,\ Menge\ C\ von\ Klausel\ über\ U.$$
 
 **Instanz(Beispiel)**:
 
-$$ U= \{x, y, z\}, C = \{x \vee y, x \vee z \} $$
+$$ U= \\{x, y, z\\}, C = \\{x \lor y, x \lor z \\} $$
 
 **Lösung(allgemein)**:
 
