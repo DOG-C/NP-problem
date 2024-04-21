@@ -1,6 +1,7 @@
 # NP-Problem
-> [!NOTE]
-> **Problem** ist gegben durch:
+>
+> [!NOTE] **Problem** ist gegben durch:
+>
 > 1. eine allgemeine Beschreibung aller vorkommende Parameter
 > 2. eine genaue Beschreibung der Eigenschaften, die Lösung haben soll.
 
