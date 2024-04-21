@@ -129,3 +129,20 @@ später
 >
 > **Kürz**: $(U, C, f)$
 
+#### Instanz und Lösung
+
+---
+**Instanz(allgemein)**:
+
+```math
+ Menge\ U\ von\ Varablen,\ Menge\ C\ von\ Klausel\ über\ U,\ wobei\ jede\ Klausel\ genau\ drei\ Literale\ enthält.
+ ```
+
+**Instanz(Beispiel)**:
+
+```math
+U= \left \{x, y, z\right \}, C = \left \{x \lor y, x \lor z \right \}
+```
+
+---
+**Lösung(allgemein)**:
