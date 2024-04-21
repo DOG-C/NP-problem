@@ -7,7 +7,7 @@
 > 2. eine genaue Beschreibung der Eigenschaften, die Lösung haben soll.
 
 > [!NOTE]
-> Eine **Instanz *I*** von **$\Pi$** erhalten wir, indem wir die Parameter von **$\Pi$** festlegen.
+> Eine **Instanz *I*** von $\mathbf{\Pi}$ erhalten wir, indem wir die Parameter von $\mathbf{\Pi}$ festlegen.
 
 ## SAT
 
