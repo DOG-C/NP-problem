@@ -20,7 +20,8 @@
 > Ein Problem $\Pi \in NP$:
 >
 > Es existiert eine TM mit polynomialer Zeitkompexitätsfunktion, die in $q_{J}$ hält bei Ja-**Instanz**.
-> $\Rightarrow $ Konstruire eine OTM mit polynomialer Überprüfungsphase
+>
+> $\Rightarrow$ Konstruire eine OTM mit polynomialer Überprüfungsphase
 
 > [!NOTE]
 > Ein Problem $\Pi$ ist NP-vollständig
