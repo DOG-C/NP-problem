@@ -77,13 +77,18 @@ Es gibt keine Wahrheitsbelegung, sodass jede Klausel in C wahr ist.
 Eine Beispiel für Nein-Instanz von **SAT**:
 
 ```math
-U = \left\{x, y\right\},\ C = \left\{ \bar{x},\ x \lor y \right\}
+U = \left\{x, y, z\right\},\ C = \left\{ \bar{x},\ \bar{z},\ x \lor y,\ \bar{y} \lor z \right\}
 \\
 ```
 
-|  x  |  y  | $\mathbf{\bar{x}}$ | $\mathbf{x \lor y}$ |
-|:---:|:---:|       :---:      |        :---:       |
-|0|0|1|0|
-|0|1|1|1|
-|1|0|0|1|
-|1|1|0|1|
+|  x  |  y  |  z  | $\mathbf{\bar{x}}$ | $\mathbf{\bar{y}}$ | $\mathbf{\bar{z}}$ | $\mathbf{x \lor y}$ | $\mathbf{\bar{y} \lor z}$|erfüllt?|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|0|0|0|**1**|1|**1**|**0**|**1**|Nein|
+|0|0|1|**1**|1|**0**|**0**|**1**|Nein|
+|0|1|0|**1**|0|**1**|**1**|**0**|Nein|
+|0|1|1|**1**|0|**0**|**1**|**1**|Nein|
+|1|0|0|**0**|1|**1**|**1**|**1**|Nein|
+|1|0|1|**0**|1|**0**|**1**|**1**|Nein|
+|1|1|0|**0**|0|**1**|**1**|**0**|Nein|
+|1|1|1|**0**|0|**0**|**1**|**1**|Nein|
+
