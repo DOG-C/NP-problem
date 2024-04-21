@@ -1,13 +1,16 @@
 # NP-Problem
 
 > [!NOTE]
-> **Problem $\Pi$** ist gegben durch:
+> **Problem $\mathbf{\Pi}$** ist gegben durch:
 >
 > 1. eine allgemeine Beschreibung aller vorkommende Parameter
 > 2. eine genaue Beschreibung der Eigenschaften, die Lösung haben soll.
 
 > [!NOTE]
 > Eine **Instanz *I*** von $\mathbf{\Pi}$ erhalten wir, indem wir die Parameter von $\mathbf{\Pi}$ festlegen.
+
+> [!NOTE]
+> $\mathbf{D_{\Pi}}$ ist eine Familie/Klasse von Instanzen von einem Entscheidungsprblem $\mathbf{\Pi}$
 
 ## SAT
 
