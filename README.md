@@ -30,7 +30,7 @@
 > - ${\Pi}' \propto \Pi$ für alle ${\Pi}' \in NP$ **oder**
 > - ${\Pi}' \propto \Pi$ für ein bekanntes NP-vollständiges ${\Pi}'$
 
-### SAT(Das erste NP-vollständige Problem)
+### SAT: das erste NP-vollständige Problem
 
 > [!IMPORTANT]
 > **Gegeben**: Menge U von Variablen, Menge C von Klausel über U.
@@ -111,3 +111,19 @@ U = \left\{x, y, z\right\},\ C = \left\{ \bar{x},\ \bar{z},\ x \lor y,\ \bar{y} 
 |1|1|0|**0**|0|**1**|**1**|**0**|Nein|
 |1|1|1|**0**|0|**0**|**1**|**1**|Nein|
 
+#### Beweise NP-vollständigkeit von SAT
+
+später
+
+### 3SAT
+
+> [!IMPORTANT]
+> **Gegeben**:
+>
+> Menge U von Variablen
+>
+> Menge C von Klausel über U
+>
+> wobei jede Klausel genau **drei** Literale enthält.
+>
+> **Frage**: Existiert eine erfüllende **Wahrheistbelegung** für C?
