@@ -1,10 +1,13 @@
 # NP-Problem
->
+
 > [!NOTE]
-> **Problem** ist gegben durch:
+> **Problem $\Pi$** ist gegben durch:
 >
 > 1. eine allgemeine Beschreibung aller vorkommende Parameter
 > 2. eine genaue Beschreibung der Eigenschaften, die Lösung haben soll.
+
+> [!NOTE]
+> Eine **Instanz *I*** von **$\Pi$** erhalten wir, indem wir die Parameter von **$\Pi$** festlegen.
 
 ## SAT
 
@@ -46,7 +49,4 @@ $$
 
 **Ja-Instanz**:
 
-
-
 **Nein-Instanz**:
-
