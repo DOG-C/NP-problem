@@ -1,4 +1,4 @@
-# NP-Problem
+# Problem
 
 > [!NOTE]
 > **Problem $\mathbf{\Pi}$** ist gegben durch:
@@ -12,14 +12,16 @@
 > [!NOTE]
 > $\mathbf{D_{\Pi}}$ ist eine Familie/Klasse von Instanzen von einem Entscheidungsprblem $\mathbf{\Pi}$
 
-## SAT
+## NP-Problem
+
+### SAT
 
 > [!IMPORTANT]
 > **Gegeben**: Menge U von Variablen, Menge C von Klausel über U.
 > 
 > **Frage**: Existiert eine **Wahrheistbelegung** von U, sodass jede Klausel in C erfüllt wird?
 
-### Instanz und Lösung
+#### Instanz und Lösung
 
 **Instanz(allgemein)**:
 
@@ -66,7 +68,7 @@ Eine Beispiel für Ja-Instanz von **SAT**:
 U = \left\{ x, y, z \right\}, C = \left\{ x \lor y, x \lor z\right\}
 ```
 
-$Eine\ Lösung\ f(x)=f(y)=f(z)=true$
+$$Eine\ Lösung\ f(x)=f(y)=f(z)=true$$
 
 **Nein-Instanz**:
 
@@ -75,6 +77,13 @@ Es gibt keine Wahrheitsbelegung, sodass jede Klausel in C wahr ist.
 Eine Beispiel für Nein-Instanz von **SAT**:
 
 ```math
-U = \left\{x, y\right\},\ C = \left\{ \bar{x} \lor y, x \right\}
+U = \left\{x, y\right\},\ C = \left\{ \bar{x},\ x \lor y \right\}
 \\
 ```
+
+|  x  |  y  | $\mathbf{\bar{x}}$ | $\mathbf{x \lor y}$ |
+|:---:|:---:|       :---:      |        :---:       |
+|0|0|1|0|
+|0|1|1|1|
+|1|0|0|1|
+|1|1|0|1|
