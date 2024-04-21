@@ -22,6 +22,7 @@
 ### Instanz und Lösung
 
 **Instanz(allgemein)**:
+
 eine allgemeine Beschreibung aller vorkommende Parameter
 
 ```math
@@ -35,6 +36,7 @@ U= \left \{x, y, z\right \}, C = \left \{x \lor y, x \lor z \right \}
 ```
 
 **Lösung(allgemein)**:
+
 eine genaue Beschreibung der Eigenschaften, die Lösung haben soll
 
 $$ Wahrheitsbelegung:$$
