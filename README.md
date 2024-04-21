@@ -53,6 +53,7 @@ eine allgemeine Beschreibung aller vorkommende Parameter
 U= \left \{x, y, z\right \}, C = \left \{x \lor y, x \lor z \right \}
 ```
 
+---
 **Lösung(allgemein)**:
 
 eine genaue Beschreibung der Eigenschaften, die Lösung haben soll(ohne Beschreibung von Instanz)
@@ -71,6 +72,7 @@ $$
 f(x)=f(y)=f(z)=true
 $$
 
+---
 **Ja-Instanz**:
 
 Soll bestehen aus:
