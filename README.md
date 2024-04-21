@@ -177,7 +177,7 @@ $$Eine\ Lösung:\ f(x)=f(y)=f(z)=true$$
 **I. 3SAT $\in$ NP**
 (Es existiert eine TM mit polynomialer Zeitkompexitätsfunktion, die in $q_{J}$ hält bei **Ja-Instanz**)
 - Konstruiere eine OTM mit polynomialer Überprüfungsphase
-   - **Das Orakel** ist eine Wahrheitsbelegung $f: U \longrightarrow \left \{true, false \right \}$
+   - **Das Orakel** ist eine Wahrheitsbelegung $f: U \longrightarrow \\{true, false \\}$
    - **Die endliche Kontrolle** überprüft, ob jede Klausel in C **durch f** erfüllt ist
    - Wenn alle Klauseln erfüllt sind, gehe in $q_{J}$
    - Wenn mindestens eine Klausel nicht erfüllt ist, gehe in $q_{N}$
