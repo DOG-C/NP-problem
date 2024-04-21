@@ -35,7 +35,9 @@
 > [!IMPORTANT]
 > **Gegeben**: Menge U von Variablen, Menge C von Klausel über U.
 >
-> **Frage**: Existiert eine **Wahrheistbelegung** von U, sodass jede Klausel in C erfüllt wird?
+> **Frage**: Existiert eine **Wahrheistbelegung f** von U, sodass jede Klausel in C erfüllt wird?
+>
+> Kürz: $(U, C, f)$
 
 #### Instanz und Lösung
 
@@ -119,11 +121,11 @@ später
 
 > [!IMPORTANT]
 > **Gegeben**:
->
-> Menge U von Variablen
->
-> Menge C von Klausel über U
->
+> Menge U von Variablen,
+> Menge C von Klausel über U,
 > wobei jede Klausel genau **drei** Literale enthält.
 >
-> **Frage**: Existiert eine erfüllende **Wahrheistbelegung** für C?
+> **Frage**: Existiert eine erfüllende **Wahrheistbelegung f** für C?
+>
+> Kürz: $(U, C, f)$
+
