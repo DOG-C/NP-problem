@@ -37,7 +37,7 @@
 >
 > **Frage**: Existiert eine **Wahrheistbelegung f** von U, sodass jede Klausel in C erfüllt wird?
 >
-> Kürz: $(U, C, f)$
+> **Kürz**: $(U, C, f)$
 
 #### Instanz und Lösung
 
@@ -127,5 +127,5 @@ später
 >
 > **Frage**: Existiert eine erfüllende **Wahrheistbelegung f** für C?
 >
-> Kürz: $(U, C, f)$
+> **Kürz**: $(U, C, f)$
 
