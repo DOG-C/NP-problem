@@ -1,4 +1,6 @@
 # NP-Problem
+> [!NOTE]
+> Problem
 
 ## SAT
 
@@ -37,3 +39,10 @@ $$
 $$
 f(x)=f(y)=f(z)=true
 $$
+
+**Ja-Instanz**:
+
+
+
+**Nein-Instanz**:
+
