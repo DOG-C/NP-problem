@@ -55,11 +55,15 @@ $$
 f(x)=f(y)=f(z)=true
 $$
 
-**Ja-Instanz**: Instanz mit einer Lösung
+**Ja-Instanz**:
 
+Instanz mit einer Lösung
+
+```markdown
 eine Menge von Variablen, also U= { x, y, z } and eine Menge von Klausel über U, also C = { x ∨ y, x ∨ z}
 
-eine Lösung $f(x)=f(y)=f(z)=true$
+eine Lösung f(x)=f(y)=f(z)=true
+```
 
 **Nein-Instanz**:
 
