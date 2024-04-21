@@ -15,6 +15,7 @@
 ## P Probleme
 
 ## NP/NP-vollständige Probleme
+
 > [!NOTE]
 > Ein Problem $\Pi \in NP$:
 >
@@ -24,9 +25,9 @@
 > [!NOTE]
 > Ein Problem $\Pi$ ist NP-vollständig
 >
-> 1. $\Pi \in NP$
-> 2. ${\Pi}' \propto \Pi$ für alle ${\Pi}' \in NP$ **oder**
-> 2. ${\Pi}' \propto \Pi$ für ein bekanntes NP-vollständiges ${\Pi}'$
+> - $\Pi \in NP$
+> - ${\Pi}' \propto \Pi$ für alle ${\Pi}' \in NP$ **oder**
+> - ${\Pi}' \propto \Pi$ für ein bekanntes NP-vollständiges ${\Pi}'$
 
 ### SAT
 
