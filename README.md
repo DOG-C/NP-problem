@@ -37,7 +37,7 @@ U= \left \{x, y, z\right \}, C = \left \{x \lor y, x \lor z \right \}
 
 **Lösung(allgemein)**:
 
-eine genaue Beschreibung der Eigenschaften, die Lösung haben soll
+eine genaue Beschreibung der Eigenschaften, die Lösung haben soll(ohne Beschreibung von Instanz)
 
 $$ Wahrheitsbelegung:$$
 
@@ -57,10 +57,16 @@ $$
 
 **Ja-Instanz**:
 
-Instanz mit einer Lösung
+Soll bestehen aus:
+
+ 1. konkrete Beschreibung einer **SAT**-Instanz
+ 2. konkrete Beschreibung von der **Wahrheitsbelegung**, bei der jede Klausel in C wahr ist.
+
+Eine Beispiel für Ja-Instanz von **SAT**:
 
 ```markdown
-eine Menge von Variablen, also U= { x, y, z } and eine Menge von Klausel über U, also C = { x ∨ y, x ∨ z}
+
+Eine Menge von Variablen, also U= { x, y, z } and eine Menge von Klausel über U, also C = { x ∨ y, x ∨ z}
 
 eine Lösung f(x)=f(y)=f(z)=true
 ```
