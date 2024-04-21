@@ -24,7 +24,9 @@ U= \left \{x, y, z\right \}, C = \left \{x \lor y, x \lor z \right \}
 
 $$ Wahrheitsbelegung:$$
 
-$$f: U \longrightarrow \left \{true, false\right \},$$
+```math
+f: U \longrightarrow \left \{true, false \right \},
+```
 
 $$
  sodass\ in\ jede\ Klausel\ c \in C\ mindestens\ ein\ Literal\ wahr\ ist.
