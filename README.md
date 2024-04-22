@@ -285,7 +285,7 @@ Somit hat diese Abbildung von SAT zu 3SAT eine Lösung $\Rightarrow$ Ja-Instanz
 ## KNAPSACK
 
 > [!IMPORTANT]
-> **Gegeben**: Eine endliche Menge $M$,
+> **Gegeben**: Eine endliche Menge $M$
 > 
 >  eine Gewichtsfunktion $w: M \rightarrow \mathbb{N_{0}}$,
 > 
