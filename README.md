@@ -270,4 +270,13 @@ Somit hat diese Abbildung von SAT zu 3SAT eine Lösung $\Rightarrow$ Ja-Instanz
 >
 > **Frage**: Existiert eine Teilmenge M' ⊆ M mit $\sum_{a \in M'}w(a) = K$?
 >
-> > **Kürz**: $(X, S)$
+> **Kürz**: $(M, w, K)$
+
+## PARTITION
+
+> [!IMPORTANT]
+> **Gegeben**: Eine endliche Menge M, eine Gewichtsfunktion $w: M \rightarrow \mathbb{N_{0}}$
+>
+> **Frage**: Existiert eine Teilmenge M' ⊆ M mit $\sum_{a \in M'}w(a) = \sum_{a \in M\setminus M'}w(a)$, d.h. $w(M')=w(M \setminus M')$?
+>
+> **Kürz**: $(M, w)$
