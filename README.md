@@ -229,3 +229,15 @@ Besteht Klausel c aus k Literalen:
     |k-2|k-1, k|k-1|$\overline{y_{c,k-1}} \lor x_{k-1} \lor x_{k}$|true oder true|true|
 
 Somit hat diese Abbildung von SAT zu 3SAT eine Lösung $\Rightarrow$ Ja-Instanz
+
+
+## CLIQUE
+> [!NOTE]
+> Eine **Clique** in einem Graphen G = (V, E) ist eine Menge V' ⊆ V, so dass für alle i, j ∈ V', gilt: {i, j } ∈ E
+
+> [!IMPORTANT]
+> **Gegeben**: Graph G = (V, E) und ein Parameter  K ≤ |V|
+>
+> **Frage**: Gibt es in G eine Clique der Größe mindestens K?
+>
+> **Kürz**: $(G, V, E, K)$
