@@ -10,7 +10,7 @@
 > [!NOTE]
 > $\mathbf{D_{\Pi}}$ ist eine Familie/Klasse von Instanzen von einem Entscheidungsproblem $\mathbf{\Pi}$
 
-
+# P Probleme
 ## 2SAT
 > [!IMPORTANT]
 > **Gegeben**:
