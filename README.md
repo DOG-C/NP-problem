@@ -1,5 +1,3 @@
-# Problem
-
 > [!NOTE]
 > **Problem $\mathbf{\Pi}$** ist gegben durch:
 >
@@ -12,9 +10,8 @@
 > [!NOTE]
 > $\mathbf{D_{\Pi}}$ ist eine Familie/Klasse von Instanzen von einem Entscheidungsproblem $\mathbf{\Pi}$
 
-## P Probleme
 
-### 2SAT
+## 2SAT
 > [!IMPORTANT]
 > **Gegeben**:
 > Menge U von Variablen,
@@ -25,7 +22,7 @@
 >
 > **Kürz**: $(U, C, f)$
 
-## NP/NP-vollständige Probleme
+# NP/NP-vollständige Probleme
 
 > [!NOTE]
 > Ein Problem $\Pi \in NP$:
@@ -41,7 +38,7 @@
 > - ${\Pi}' \propto \Pi$ für alle ${\Pi}' \in NP$ **oder**
 > - ${\Pi}' \propto \Pi$ für ein bekanntes NP-vollständiges ${\Pi}'$
 
-### SAT: das erste NP-vollständige Problem
+## SAT: das erste NP-vollständige Problem
 
 > [!IMPORTANT]
 > **Gegeben**: Menge U von Variablen, Menge C von Klausel über U.
@@ -50,7 +47,7 @@
 >
 > **Kürz**: $(U, C, f)$
 
-#### Instanz und Lösung
+### Instanz und Lösung
 
 ---
 **Instanz(allgemein)**:
@@ -126,11 +123,11 @@ U = \left\{x, y, z\right\},\ C = \left\{ \bar{x},\ \bar{z},\ x \lor y,\ \bar{y} 
 |1|1|0|**0**|0|**1**|**1**|**0**|Nein|
 |1|1|1|**0**|0|**0**|**1**|**1**|Nein|
 
-#### Beweise NP-vollständigkeit von SAT
+### Beweise NP-vollständigkeit von SAT
 
 später
 
-### 3SAT
+## 3SAT
 
 > [!IMPORTANT]
 > **Gegeben**:
@@ -142,7 +139,7 @@ später
 >
 > **Kürz**: $(U, C, f)$
 
-#### Instanz und Lösung
+### Instanz und Lösung
 
 ---
 **Instanz(allgemein)**:
@@ -187,7 +184,7 @@ U= \left \{x, y, z\right \}, C = \left \{x \lor y \lor z, x \lor \bar{y} \lor z 
 
 $$Eine\ Lösung:\ f(x)=f(y)=f(z)=true$$
 
-#### Beweis
+### Beweis
 
 **I. 3SAT $\in$ NP**
 
