@@ -199,6 +199,7 @@ $$Eine\ Lösung:\ t(x)=t(y)=t(z)=true$$
 2. Gegeben sei eine **SAT**-Instanz *I*
 
 sodass für jede SAT-Instanz *I*
+
 $$
 I \in J_{SAT} \Longleftrightarrow f(I) \in J_{3SAT}
 $$
