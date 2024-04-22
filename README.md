@@ -203,3 +203,15 @@ sodass für jede SAT-Instanz *I*
 $$
 I \in J_{SAT} \Longleftrightarrow f(I) \in J_{3SAT}
 $$
+
+Besteht Klausel c aus k Literalen:
+
+- Falls k $\le$ 3
+
+| c besteht aus ...| c  | *f(c)* |
+|:---:|:---:|:---:|
+|einem Literal|$x_{1}$|$x_{1} \lor x_{1} \lor x_{1}$|
+|zwe Literalen|$x_{1} \lor x_{2}$|$x_{1} \lor x_{2} \lor x_{1}$|
+|drei Literalen|$x_{1} \lor x_{2} \lor x_{3}$|$x_{1} \lor x_{2} \lor x_{3}$|
+
+- Falls k $>$ 3
