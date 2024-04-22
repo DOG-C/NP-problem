@@ -49,7 +49,6 @@
 
 ### Instanz und Lösung
 
----
 **Instanz(allgemein)**:
 
 eine allgemeine Beschreibung aller vorkommende Parameter
@@ -141,7 +140,6 @@ später
 
 ### Instanz und Lösung
 
----
 **Instanz(allgemein)**:
 
 ```math
