@@ -14,6 +14,8 @@
 
 ## P Probleme
 
+### 2SAT
+
 ## NP/NP-vollständige Probleme
 
 > [!NOTE]
