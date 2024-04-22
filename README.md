@@ -228,4 +228,4 @@ Besteht Klausel c aus k Literalen:
     |k-3|k-2|k-1|$\overline{y_{c,k-2}} \lor x_{k-2} \lor y_{c,k-1}$|false|true|
     |k-2|k-1, k|k-1|$\overline{y_{c,k-1}} \lor x_{k-1} \lor x_{k}$|true oder true|true|
 
-    Somit hat diese Abbildung von SAT zu 3SAT eine Lösung $\Rightarrow$ Ja-Instanz
+Somit hat diese Abbildung von SAT zu 3SAT eine Lösung $\Rightarrow$ Ja-Instanz
