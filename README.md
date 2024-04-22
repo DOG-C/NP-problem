@@ -240,4 +240,25 @@ Somit hat diese Abbildung von SAT zu 3SAT eine Lösung $\Rightarrow$ Ja-Instanz
 >
 > **Frage**: Gibt es in G eine Clique der Größe mindestens K?
 >
-> **Kürz**: $(G, V, E, K)$
+> **Kürz**: $(G=(V, E), K)$
+
+
+## COLOR
+
+> [!IMPORTANT]
+> **Gegeben**: Graph G = (V, E) und ein Parameter K ∈ $\mathbb{N}$
+>
+> **Frage**: Gibt es eine Knotenfärbung von G mit höchstens K Farben, so dass je zwei adjazente Knoten verschiedene Farben besitzen?
+>
+> **Kürz**: $(G=(V, E), K)$
+>
+> K = 3 $\Rightarrow$ 3COLOR
+
+## EXACT COVER
+
+> [!IMPORTANT]
+> **Gegeben**: Eine endliche Menge X und eine Familie S von Teilmengen von X
+>
+> **Frage**: Existiert eine Menge S' ⊆ S, so dass jedes Element aus X in genau einer Menge aus S' liegt?
+>
+> **Kürz**: $(X, S)$
