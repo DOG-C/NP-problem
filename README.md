@@ -165,6 +165,7 @@ $$
 
 ---
 **Ja-Instanz**:
+
 **Wahrheitsbelegung f** ist erfüllbar
 
 Eine Beispiel für Ja-Instanz von **3SAT**:
