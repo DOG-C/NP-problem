@@ -10,7 +10,7 @@
 > Eine **Instanz *I*** von $\mathbf{\Pi}$ erhalten wir, indem wir die Parameter von $\mathbf{\Pi}$ festlegen.
 
 > [!NOTE]
-> $\mathbf{D_{\Pi}}$ ist eine Familie/Klasse von Instanzen von einem Entscheidungsprblem $\mathbf{\Pi}$
+> $\mathbf{D_{\Pi}}$ ist eine Familie/Klasse von Instanzen von einem Entscheidungsproblem $\mathbf{\Pi}$
 
 ## P Probleme
 
@@ -21,7 +21,7 @@
 > Menge C von Klausel über U,
 > wobei jede Klausel genau **zwei** Literale enthält.
 >
-> **Frage**: Existiert eine erfüllende **Wahrheistbelegung f** für C?
+> **Frage**: Existiert eine erfüllende **Wahrheitsbelegung f** für C?
 >
 > **Kürz**: $(U, C, f)$
 
@@ -46,7 +46,7 @@
 > [!IMPORTANT]
 > **Gegeben**: Menge U von Variablen, Menge C von Klausel über U.
 >
-> **Frage**: Existiert eine **Wahrheistbelegung f** von U, sodass jede Klausel in C erfüllt wird?
+> **Frage**: Existiert eine **Wahrheitsbelegung f** von U, sodass jede Klausel in C erfüllt wird?
 >
 > **Kürz**: $(U, C, f)$
 
@@ -138,7 +138,7 @@ später
 > Menge C von Klausel über U,
 > wobei jede Klausel genau **drei** Literale enthält.
 >
-> **Frage**: Existiert eine erfüllende **Wahrheistbelegung f** für C?
+> **Frage**: Existiert eine erfüllende **Wahrheitsbelegung f** für C?
 >
 > **Kürz**: $(U, C, f)$
 
