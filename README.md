@@ -215,3 +215,13 @@ Besteht Klausel c aus k Literalen:
 |drei Literalen|$x_{1} \lor x_{2} \lor x_{3}$|$x_{1} \lor x_{2} \lor x_{3}$|
 
 - Falls k $>$ 3
+  Sei $c = x_{1} \lor ... \lor x_{k}$
+
+  Füge neue k-3 Variablen $y_{c,3},\ ...,\ y_{c, k-1}$
+
+  |$i$|$j$|$f(c)$|$t(x_{i})$|$t(y_{c,j})$|
+  |:---:|:---:|:---:|:---:|:---:|
+  |1, 2|3|$x_{1} \lor x_{2} \lor y_{c,3}$|false, false|true|
+  |3|4|$\overline{y_{c,3}} \lor x_{3} \lor y_{c,4}$|false|true|
+  |k-2|k-1|$\overline{y_{c,k-2}} \lor x_{k-2} \lor y_{c,k-1}$|false|true|
+  |k-1, k|k-1|$\overline{y_{c,k-1}} \lor x_{k-1} \lor x_{k}$|true oder true|true|
