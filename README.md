@@ -81,7 +81,7 @@ $$
 Soll bestehen aus:
 
  1. konkrete Beschreibung einer **SAT**-Instanz
- 2. konkrete Beschreibung von der **Wahrheitsbelegung**, bei der jede Klausel in C wahr ist.
+ 2. konkrete Beschreibung von der **Wahrheitsbelegung**, bei der jede Klausel in C wahr ist $\Rightarrow$ **Wahrheitsbelegung f** ist erfüllbar
 
 Eine Beispiel für Ja-Instanz von **SAT**:
 
@@ -93,7 +93,9 @@ $$Eine\ Lösung:\ f(x)=f(y)=f(z)=true$$
 
 **Nein-Instanz**:
 
-Es gibt keine Wahrheitsbelegung, sodass jede Klausel in C wahr ist.
+Es gibt keine Wahrheitsbelegung, sodass jede Klausel in C wahr ist
+
+$\Rightarrow$ **Wahrheitsbelegung f** ist nicht erfüllbar
 
 Eine Beispiel für Nein-Instanz von **SAT**:
 
@@ -163,6 +165,7 @@ $$
 
 ---
 **Ja-Instanz**:
+**Wahrheitsbelegung f** ist erfüllbar
 
 Eine Beispiel für Ja-Instanz von **3SAT**:
 
@@ -175,6 +178,7 @@ $$Eine\ Lösung:\ f(x)=f(y)=f(z)=true$$
 #### Beweis
 
 **I. 3SAT $\in$ NP**
+
 (Es existiert eine TM mit polynomialer Zeitkompexitätsfunktion, die in $q_{J}$ hält bei **Ja-Instanz**)
 - Konstruiere eine OTM mit polynomialer Überprüfungsphase
    - **Das Orakel** ist eine Wahrheitsbelegung $f: U \longrightarrow \\{true, false \\}$
@@ -184,3 +188,4 @@ $$Eine\ Lösung:\ f(x)=f(y)=f(z)=true$$
 - Für eine feste Wahrheitsbelegung f kann in polynomialer Zeit $O(|C|)$ (also linear), ob alle Klauseln aus C durch f erfüllt sind.
 
 **II. SAT $\propto$ 3SAT**
+
