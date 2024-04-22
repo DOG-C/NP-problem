@@ -15,6 +15,15 @@
 ## P Probleme
 
 ### 2SAT
+> [!IMPORTANT]
+> **Gegeben**:
+> Menge U von Variablen,
+> Menge C von Klausel über U,
+> wobei jede Klausel genau **zwei** Literale enthält.
+>
+> **Frage**: Existiert eine erfüllende **Wahrheistbelegung f** für C?
+>
+> **Kürz**: $(U, C, f)$
 
 ## NP/NP-vollständige Probleme
 
