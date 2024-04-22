@@ -268,4 +268,6 @@ Somit hat diese Abbildung von SAT zu 3SAT eine Lösung $\Rightarrow$ Ja-Instanz
 > [!IMPORTANT]
 > **Gegeben**: Eine endliche Menge M, eine Gewichtsfunktion $w: M \rightarrow \mathbb{N_{0}}$, eine Zahl $K \in \mathbb{N_{0}}$
 >
-> **Frage**: Existiert eine Menge S' ⊆ S, so dass jedes Element aus X in genau einer Menge aus S' liegt?
+> **Frage**: Existiert eine Teilmenge M' ⊆ M mit $\sum_{a \in M'}w(a) = K$?
+>
+> > **Kürz**: $(X, S)$
