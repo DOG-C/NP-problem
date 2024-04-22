@@ -195,4 +195,10 @@ $$Eine\ Lösung:\ t(x)=t(y)=t(z)=true$$
 - Für eine feste Wahrheitsbelegung t kann in polynomialer Zeit $O(|C|)$ (also linear), ob alle Klauseln aus C durch t erfüllt sind.
 
 **II. SAT $\propto$ 3SAT**
+1. Gebe eine **polynomale Transformation f** von SAT zu 3SAT an
+2. Gegeben sei eine **SAT**-Instanz *I*
 
+sodass für jede SAT-Instanz *I*
+$$
+I \in J_{SAT} \Longleftrightarrow f(I) \in J_{3SAT}
+$$
