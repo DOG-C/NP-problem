@@ -18,9 +18,9 @@
 > Menge C von Klausel über U,
 > wobei jede Klausel genau **zwei** Literale enthält.
 >
-> **Frage**: Existiert eine erfüllende **Wahrheitsbelegung f** für C?
+> **Frage**: Existiert eine erfüllende **Wahrheitsbelegung t** für C?
 >
-> **Kürz**: $(U, C, f)$
+> **Kürz**: $(U, C, t)$
 
 # NP/NP-vollständige Probleme
 
@@ -43,9 +43,9 @@
 > [!IMPORTANT]
 > **Gegeben**: Menge U von Variablen, Menge C von Klausel über U.
 >
-> **Frage**: Existiert eine **Wahrheitsbelegung f** von U, sodass jede Klausel in C erfüllt wird?
+> **Frage**: Existiert eine **Wahrheitsbelegung t** von U, sodass jede Klausel in C erfüllt wird?
 >
-> **Kürz**: $(U, C, f)$
+> **Kürz**: $(U, C, t)$
 
 ### Instanz und Lösung
 
@@ -71,7 +71,7 @@ eine genaue Beschreibung der Eigenschaften, die Lösung haben soll(ohne Beschrei
 $Wahrheitsbelegung:$
 
 ```math
-f: U \longrightarrow \left \{true, false \right \},
+t: U \longrightarrow \left \{true, false \right \},
 ```
 
 $sodass\ in\ jede\ Klausel\ c \in C\ mindestens\ ein\ Literal\ wahr\ ist.$
@@ -79,7 +79,7 @@ $sodass\ in\ jede\ Klausel\ c \in C\ mindestens\ ein\ Literal\ wahr\ ist.$
 **Lösung(Beispiel)**:
 
 $$
-f(x)=f(y)=f(z)=true
+t(x)=t(y)=t(z)=true
 $$
 
 ---
@@ -88,7 +88,7 @@ $$
 Soll bestehen aus:
 
  1. konkrete Beschreibung einer **SAT**-Instanz
- 2. konkrete Beschreibung von der **Wahrheitsbelegung**, bei der jede Klausel in C wahr ist $\Rightarrow$ **Wahrheitsbelegung f** ist erfüllbar
+ 2. konkrete Beschreibung von der **Wahrheitsbelegung**, bei der jede Klausel in C wahr ist $\Rightarrow$ **Wahrheitsbelegung t** ist erfüllbar
 
 Eine Beispiel für Ja-Instanz von **SAT**:
 
@@ -96,13 +96,13 @@ Eine Beispiel für Ja-Instanz von **SAT**:
 U = \left\{ x, y, z \right\}, C = \left\{ x \lor y, x \lor z\right\}
 ```
 
-$$Eine\ Lösung:\ f(x)=f(y)=f(z)=true$$
+$$Eine\ Lösung:\ t(x)=t(y)=t(z)=true$$
 
 **Nein-Instanz**:
 
 Es gibt keine Wahrheitsbelegung, sodass jede Klausel in C wahr ist
 
-$\Rightarrow$ **Wahrheitsbelegung f** ist nicht erfüllbar
+$\Rightarrow$ **Wahrheitsbelegung t** ist nicht erfüllbar
 
 Eine Beispiel für Nein-Instanz von **SAT**:
 
@@ -134,9 +134,9 @@ später
 > Menge C von Klausel über U,
 > wobei jede Klausel genau **drei** Literale enthält.
 >
-> **Frage**: Existiert eine erfüllende **Wahrheitsbelegung f** für C?
+> **Frage**: Existiert eine erfüllende **Wahrheitsbelegung t** für C?
 >
-> **Kürz**: $(U, C, f)$
+> **Kürz**: $(U, C, t)$
 
 ### Instanz und Lösung
 
@@ -158,7 +158,7 @@ U= \left \{x, y, z\right \}, C = \left \{x \lor y \lor z, x \lor \bar{y} \lor z 
 $Wahrheitsbelegung:$
 
 ```math
-f: U \longrightarrow \left \{true, false \right \},
+t: U \longrightarrow \left \{true, false \right \},
 ```
 
 $sodass\ in\ jede\ Klausel\ c \in C\ mindestens\ ein\ Literal\ wahr\ ist.$
@@ -166,13 +166,13 @@ $sodass\ in\ jede\ Klausel\ c \in C\ mindestens\ ein\ Literal\ wahr\ ist.$
 **Lösung(Beispiel)**:
 
 $$
-f(x)=f(y)=f(z)=true
+t(x)=t(y)=t(z)=true
 $$
 
 ---
 **Ja-Instanz**:
 
-**Wahrheitsbelegung f** ist erfüllbar
+**Wahrheitsbelegung t** ist erfüllbar
 
 Eine Beispiel für Ja-Instanz von **3SAT**:
 
@@ -180,7 +180,7 @@ Eine Beispiel für Ja-Instanz von **3SAT**:
 U= \left \{x, y, z\right \}, C = \left \{x \lor y \lor z, x \lor \bar{y} \lor z \right \}
 ```
 
-$$Eine\ Lösung:\ f(x)=f(y)=f(z)=true$$
+$$Eine\ Lösung:\ t(x)=t(y)=t(z)=true$$
 
 ### Beweis
 
@@ -188,11 +188,11 @@ $$Eine\ Lösung:\ f(x)=f(y)=f(z)=true$$
 
 (Es existiert eine TM mit polynomialer Zeitkompexitätsfunktion, die in $q_{J}$ hält bei **Ja-Instanz**)
 - Konstruiere eine OTM mit polynomialer Überprüfungsphase
-   - **Das Orakel** ist eine Wahrheitsbelegung $f: U \longrightarrow \\{true, false \\}$
-   - **Die endliche Kontrolle** überprüft, ob jede Klausel in C **durch f** erfüllt ist
+   - **Das Orakel** ist eine Wahrheitsbelegung $t: U \longrightarrow \\{true, false \\}$
+   - **Die endliche Kontrolle** überprüft, ob jede Klausel in C **durch t** erfüllt ist
    - Wenn alle Klauseln erfüllt sind, gehe in $q_{J}$
    - Wenn mindestens eine Klausel nicht erfüllt ist, gehe in $q_{N}$
-- Für eine feste Wahrheitsbelegung f kann in polynomialer Zeit $O(|C|)$ (also linear), ob alle Klauseln aus C durch f erfüllt sind.
+- Für eine feste Wahrheitsbelegung t kann in polynomialer Zeit $O(|C|)$ (also linear), ob alle Klauseln aus C durch t erfüllt sind.
 
 **II. SAT $\propto$ 3SAT**
 
