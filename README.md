@@ -215,6 +215,7 @@ Besteht Klausel c aus k Literalen:
     |drei Literalen|$x_{1} \lor x_{2} \lor x_{3}$|$x_{1} \lor x_{2} \lor x_{3}$|
 
 - Falls k $>$ 3
+    
     Sei $c = x_{1} \lor ... \lor x_{k}$
 
     Füge neue k-3 Variablen $y_{c,3},\ ...,\ y_{c, k-1}$
