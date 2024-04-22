@@ -233,12 +233,12 @@ Somit hat diese Abbildung von SAT zu 3SAT eine Lösung $\Rightarrow$ Ja-Instanz
 
 ## CLIQUE
 > [!NOTE]
-> Eine **Clique** in einem Graphen G = (V, E) ist eine Menge V' ⊆ V, so dass für alle i, j ∈ V', gilt: {i, j } ∈ E
+> Eine **Clique** in einem Graphen $G = (V, E)$ ist eine Menge $V' \subseteq V$, so dass für alle $i, j \in V'$, gilt: $\\{i, j \\} \in E$
 
 > [!IMPORTANT]
-> **Gegeben**: Graph G = (V, E) und ein Parameter  K ≤ |V|
+> **Gegeben**: Graph $G = (V, E)$ und ein Parameter  $K \le |V|$
 >
-> **Frage**: Gibt es in G eine Clique der Größe mindestens K?
+> **Frage**: Gibt es in $G$ eine Clique der Größe mindestens $K$?
 >
 > **Kürz**: $(G=(V, E), K)$
 
@@ -246,9 +246,9 @@ Somit hat diese Abbildung von SAT zu 3SAT eine Lösung $\Rightarrow$ Ja-Instanz
 ## COLOR
 
 > [!IMPORTANT]
-> **Gegeben**: Graph G = (V, E) und ein Parameter K ∈ $\mathbb{N}$
+> **Gegeben**: Graph $G = (V, E)$ und ein Parameter $K \in \mathbb{N}$
 >
-> **Frage**: Gibt es eine Knotenfärbung von G mit höchstens K Farben, so dass je zwei adjazente Knoten verschiedene Farben besitzen?
+> **Frage**: Gibt es eine Knotenfärbung von $G$ mit höchstens $K$ Farben, so dass je zwei adjazente Knoten verschiedene Farben besitzen?
 >
 > **Kürz**: $(G=(V, E), K)$
 >
@@ -257,25 +257,25 @@ Somit hat diese Abbildung von SAT zu 3SAT eine Lösung $\Rightarrow$ Ja-Instanz
 ## EXACT COVER
 
 > [!IMPORTANT]
-> **Gegeben**: Eine endliche Menge X und eine Familie S von Teilmengen von X
+> **Gegeben**: Eine endliche Menge $X$ und eine Familie $S$ von Teilmengen von $X$
 >
-> **Frage**: Existiert eine Menge S' ⊆ S, so dass jedes Element aus X in genau einer Menge aus S' liegt?
+> **Frage**: Existiert eine Menge $S' \subseteq S$, so dass jedes Element aus $X$ in genau einer Menge aus $S'$ liegt?
 >
 > **Kürz**: $(X, S)$
 
 ## SUBSET SUM
 
 > [!IMPORTANT]
-> **Gegeben**: Eine endliche Menge M, eine Gewichtsfunktion $w: M \rightarrow \mathbb{N_{0}}$, eine Zahl $K \in \mathbb{N_{0}}$
+> **Gegeben**: Eine endliche Menge $M$, eine Gewichtsfunktion $w: M \rightarrow \mathbb{N_{0}}$, eine Zahl $K \in \mathbb{N_{0}}$
 >
-> **Frage**: Existiert eine Teilmenge M' ⊆ M mit $\sum_{a \in M'}w(a) = K$?
+> **Frage**: Existiert eine Teilmenge $M' \subseteq M$ mit $\sum_{a \in M'}w(a) = K$?
 >
 > **Kürz**: $(M, w, K)$
 
 ## PARTITION
 
 > [!IMPORTANT]
-> **Gegeben**: Eine endliche Menge M, eine Gewichtsfunktion $w: M \rightarrow \mathbb{N_{0}}$
+> **Gegeben**: Eine endliche Menge $M$, eine Gewichtsfunktion $w: M \rightarrow \mathbb{N_{0}}$
 >
 > **Frage**: Existiert eine Teilmenge M' ⊆ M mit $\sum_{a \in M'}w(a) = \sum_{a \in M\setminus M'}w(a)$, d.h. $w(M')=w(M \setminus M')$?
 >
